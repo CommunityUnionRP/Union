@@ -1,0 +1,46 @@
+{
+  "name": "rpserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^11.4.2",
+    "ext-ip": "^0.3.8",
+    "externalip": "^1.0.2",
+    "https-proxy-agent": "^2.2.1",
+    "log4js": "^2.5.3",
+    "md5": "^2.2.1",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.7",
+    "timespan": "^2.3.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkCavalli/rageserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkCavalli/rageserver/issues"
+  },
+  "homepage": "https://github.com/MarkCavalli/rageserver#readme"
+}
