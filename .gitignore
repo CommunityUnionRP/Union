@@ -1,0 +1,13 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/bridge/runtime
+/node_modules
+/plugins
+/bt.dat
+/node.dll
+/server.exe
+/package-lock.json
+/client_packages/.listcache

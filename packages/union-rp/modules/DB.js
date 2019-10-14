@@ -4,11 +4,12 @@ module.exports = {
     Handle: null,
     Connect: function(callback) {
         this.Handle = mysql.createPool({
-            connectionLimit: 100,
+            // this settings for tests
+            connectionLimit: 1000,
             host: 'localhost',
-            user: 'gtauser',
-            password: '3NJkabGBSEwu',
-            database: 'gtadb',
+            user: 'root',
+            password: '123456',
+            database: 'union',
             debug: false,
         });
         callback();

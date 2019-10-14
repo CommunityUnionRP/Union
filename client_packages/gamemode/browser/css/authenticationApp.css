@@ -168,9 +168,10 @@
 }
 
 #authenticationApp .left-block h1 {
-    font-size: 48px;
+    text-transform: none;
+    font-size: 28px; /* default 48px */
     font-weight: 100;
-    letter-spacing: 20px;
+    letter-spacing: 5px; /* default 20px */
     margin-top: -9px;
 }
 
